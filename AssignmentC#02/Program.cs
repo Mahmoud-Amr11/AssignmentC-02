@@ -11,6 +11,18 @@
             string y = "Hello"; // reference type
             Console.WriteLine($"Y = {y}");
             #endregion
+
+
+            #region System.Object
+
+            object obj = 5;
+            Console.WriteLine(obj.GetHashCode());
+            Console.WriteLine(obj.ToString()); 
+            Console.WriteLine(obj.GetType()); 
+            Console.WriteLine(obj.Equals(5)); 
+
+
+            #endregion
         }
     }
 }
